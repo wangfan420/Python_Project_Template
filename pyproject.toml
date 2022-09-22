@@ -2,7 +2,7 @@
 name = "python_project_example"
 version = "0.0.1"
 description = "An example Python module."
-authors = []
+authors = [Fan Wang]
 include = ["example.csv"]
 
 [tool.poetry.dependencies]
