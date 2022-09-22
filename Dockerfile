@@ -13,7 +13,7 @@ RUN poetry config virtualenvs.create false
 ARG POETRY_HTTP_BASIC_ARTIFACTORY_USERNAME
 ARG POETRY_HTTP_BASIC_ARTIFACTORY_PASSWORD
 
-WORKDIR /godaddy-example
+WORKDIR /src
 COPY poetry.lock pyproject.toml ./
 
 RUN poetry install --no-interaction
